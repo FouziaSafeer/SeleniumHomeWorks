@@ -14,8 +14,8 @@ public class Task2FaceBookPage {
         driver.manage().window().maximize();
 
         if(driver.findElement(By.xpath("//button[@title='Allow essential and optional cookies']")).isDisplayed()){
-            driver.findElement(By.xpath("//button[@title='Allow essential and optional cookies']")).click();
-        }
+           driver.findElement(By.xpath("//button[@title='Allow essential and optional cookies']")).click();
+       }
 
         driver.findElement(By.linkText("Create new account")).click();
 
@@ -33,7 +33,7 @@ public class Task2FaceBookPage {
        driver.findElement(By.className("_58mt")).click();
        driver.findElement(By.name("websubmit")).click();
        Thread.sleep(2000);
-       driver.close();
+      // driver.close();
 
 
 

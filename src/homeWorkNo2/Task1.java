@@ -30,7 +30,7 @@ public class Task1 {
         chrome.findElement(By.id("customer.password")).sendKeys("Cool");
         chrome.findElement(By.id("repeatedPassword")).sendKeys("Cool");
         chrome.findElement(By.className("button")).click();
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         chrome.close();
 
 }}

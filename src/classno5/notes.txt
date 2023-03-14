@@ -1,0 +1,13 @@
+dropo down
+single-----select one
+multiple----select multiple
+
+
+same approach
+selenium class help us in class
+select class,
+in order to use this , in dom class is usinf selcck tag .
+
+
+
+Alerts
